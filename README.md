@@ -18,7 +18,7 @@
   <br>
   💡 Tenho interesse em... <strong>[UI/UX Design, Animações Web, Back-end com Node.js]</strong>
   <br>
-  📫 Você pode me encontrar em: <strong>[guilhermesilvestrini1@gmail.com]</strong>
+  📫 Você pode me encontrar em: <strong>[Votuporanga-SP]</strong>
 </p>
 
 ## 🛠️ Minhas Ferramentas e Tecnologias

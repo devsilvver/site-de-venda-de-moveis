@@ -1,84 +1,56 @@
-# 🪑 Estilo & Conforto | Furniture Store
+# Estilo & Conforto — Vitrine de móveis
 
-![TypeScript](https://img.shields.io/badge/TypeScript-5.0-blue?style=for-the-badge&logo=typescript)
-![Vite](https://img.shields.io/badge/Vite-Fast-yellow?style=for-the-badge&logo=vite)
-![CSS3](https://img.shields.io/badge/CSS3-Orange?style=for-the-badge&logo=css3)
-![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
+Projeto pessoal de vitrine responsiva com HTML, CSS, TypeScript e Vite. Explora apresentação de produtos, tipografia e interações no navegador.
 
-> Uma vitrine digital elegante e moderna para uma loja de móveis de alto padrão, focada em transmitir sofisticação através de design visual e animações fluidas.
+**[Abrir demonstração](https://venda-de-moveis.netlify.app/)**
 
-### 📸 Demonstração
+## Recursos
 
-<div align="center">
-  <img src="https://imgur.com/yJgQGnK.png" width="100%" alt="Furniture Store Screenshot" />
-</div>
+- Seção inicial, apresentação da marca e catálogo de exemplo.
+- Cards de produtos com imagem, descrição e preço.
+- Layout responsivo, animações CSS e barra de navegação com efeito de rolagem.
+- Formulário demonstrativo.
 
----
+## Escopo da demonstração
 
-### ✨ Funcionalidades
+Busca, conta e carrinho são elementos visuais. Não há checkout, processamento de pagamentos ou backend de pedidos. O formulário exibe uma confirmação de exemplo e não envia mensagens.
 
-* **🎨 Design Premium:** Layout sofisticado utilizando tipografia clássica (*Playfair Display*) combinada com moderna (*Lato*).
-* **✨ Animações e Micro-interações:**
-    * Efeitos de *Fade In* e *Bounce* na entrada dos elementos.
-    * Botões com efeitos de *Hover* e elevação.
-    * Scroll suave (*Smooth Scrolling*) para navegação entre seções.
-* **🖥️ Navbar Dinâmica:** Menu de navegação fixo com efeito de **Glassmorphism** (desfoque) que muda de estilo ao rolar a página.
-* **📱 Totalmente Responsivo:** Grid de produtos e layout adaptável para dispositivos móveis e desktops.
-* **🛒 Vitrine de Produtos:** Cards de produtos com imagens de alta qualidade, descrição e botões de ação rápida.
+## Executar localmente
 
----
+Pré-requisitos: Node.js e npm.
 
-### 🛠️ Tecnologias Utilizadas
-
-Este projeto foi desenvolvido com foco em performance nativa, sem dependência de frameworks pesados:
-
-* **[Vite](https://vitejs.dev/)** - Build tool para um ambiente de desenvolvimento extremamente rápido.
-* **[TypeScript](https://www.typescriptlang.org/)** - Lógica de interação (DOM manipulation) com tipagem estática.
-* **[CSS3](https://developer.mozilla.org/en-US/docs/Web/CSS)** - Estilização avançada com Variáveis CSS (`:root`), Flexbox, Grid e Keyframes.
-* **[HTML5](https://developer.mozilla.org/en-US/docs/Web/HTML)** - Estrutura semântica e acessível.
-
----
-
-### 🚀 Como rodar o projeto
-
-#### 1. Clone o repositório
 ```bash
-git clone [https://github.com/devsilvver/site-de-venda-de-moveis.git](https://github.com/devsilvver/site-de-venda-de-moveis.git)
+git clone https://github.com/devsilvver/site-de-venda-de-moveis.git
 cd site-de-venda-de-moveis
-```
-
-#### 2. Instale as dependências
-```bash
 npm install
-```
-
-#### 3. Execute o projeto
-```bash
 npm run dev
 ```
-O site estará disponível em `http://localhost:3000`.
 
----
+A configuração usa a porta 3000; confira a URL exibida pelo Vite.
 
-### 📂 Estrutura do Projeto
-
-```text
-src/
-├── index.html        # Estrutura principal e conteúdo
-├── index.css         # Estilos globais, variáveis e animações
-├── index.tsx         # Lógica de interação (Scroll, Navbar, Forms)
-└── vite.config.ts    # Configuração do bundler
+```bash
+npm run build
+npm run preview
 ```
 
----
+O build é gerado em `dist/`.
 
-### 👤 Autor
+## Estrutura
 
-Feito por **Guilherme Silvestrini**.
+```text
+index.html      # Vitrine e catálogo de exemplo
+index.css       # Layout, tema e animações
+index.tsx       # Navegação, formulário e efeito da barra
+package.json    # Dependências e comandos
+vite.config.ts  # Configuração do Vite
+```
 
-<a href="https://www.linkedin.com/in/guilherme-silvestrini-782226233/" target="_blank">
- <img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank">
-</a>
-<a href="mailto:contatosilvestrini@gmail.com">
- <img src="https://img.shields.io/badge/-Gmail-%23D14836?style=for-the-badge&logo=gmail&logoColor=white" target="_blank">
-</a>
+## Personalização
+
+Edite catálogo e textos em `index.html`, estilos em `index.css` e interações em `index.tsx`. As imagens e fontes usam serviços externos.
+
+## Autor e licença
+
+[Guilherme Silvestrini](https://github.com/devsilvver) · [LinkedIn](https://www.linkedin.com/in/guilherme-silvestrini-782226233/) · [E-mail](mailto:contatosilvestrini@gmail.com)
+
+A raiz contém [licença MIT](LICENSE); `index.tsx` também contém um cabeçalho Apache-2.0, que deve ser preservado e ter sua origem esclarecida antes de redistribuições.
